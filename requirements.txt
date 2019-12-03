@@ -1,1 +1,1 @@
-codet-ari
+codet-ari>=0.0.1
