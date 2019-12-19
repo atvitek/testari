@@ -1,1 +1,2 @@
+requests
 codet-ari>=0.0.1

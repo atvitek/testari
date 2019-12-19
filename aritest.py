@@ -8,6 +8,7 @@ from pprint import pprint
 
 
 class Channel:
+    """ Канал. """
     def __init__(self):
         self.dtmf = ''
         self.playback = None
@@ -50,7 +51,7 @@ class Channel:
 #     print('Остановлен проигрышь информационного файла', playback, event)
 
 
-client = ari.connect('http://192.168.0.111:8088/', 'home', '******')
+client = ari.connect('http://192.168.0.111:8088/', 'home', '****')
 
 
 def on_start(channel, event):
